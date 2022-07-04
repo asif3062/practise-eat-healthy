@@ -1,3 +1,55 @@
 body{
     font-family: 'Finlandica', sans-serif;
 }
+.color-1{
+    color: #FBB454;
+}
+.color-2{
+    color: #18978F;
+}
+.color-tom{
+    color: tomato;
+}
+.color-4{
+    color: #E8A0BF;
+}
+.font-size{
+    font-size: 35px;
+}
+.img-width{
+    width: 90%;
+}
+.male{
+    display: flex;
+    background-image: url(./images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.male .img-male{
+    height: 100%;
+}
+.male-txt{
+    padding: 35px 70px;
+}
+
+.link-button{
+    text-decoration: none;
+    color: #1B2430;
+    padding: 10px 40px;
+    background-image: linear-gradient(#FFFFDE,#F4E06D);
+    border-radius: 20px;
+}
+.female{
+    display: flex;
+    background-image: url(./images/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.female .img-female{
+    height: 100%;
+}
+.female .female-txt{
+    padding: 35px 70px;
+    margin-top: 70px;
+}
+/* .female .female-txt  */
