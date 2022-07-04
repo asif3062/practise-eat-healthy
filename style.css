@@ -23,6 +23,29 @@ body{
 .img-width{
     width: 90%;
 }
+.nav{
+    width: 100%;
+    background-color: #B7D3DF;
+    display: flex;
+}
+.nav h1{
+    color: #1363DF;
+    padding: 0px 20px;
+}
+.nav .logo{
+    width: 30%;
+}
+.nav .menu{
+    width: 70%;
+    padding: 10px 20px;
+}
+.nav .menu ul{
+    float: right;
+}
+.nav .menu ul li{
+    padding: 0px 20px;
+    display: inline-block;
+}
 .male{
     display: flex;
     background-image: url(./images/Frame\ 57.jpg);
@@ -90,4 +113,22 @@ body{
     border-top: 6px solid #1F4690;
     border-left: 6px solid #1363DF;
     border-radius: 30px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 100px;
+    box-shadow: -5px 5px 20px gray;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+footer{
+    padding: 30px 10px;
+    margin-top: 80px;
+    background-color: #B7D3DF;
+}
+footer h3{
+    color: #3F4E4F;
 }
